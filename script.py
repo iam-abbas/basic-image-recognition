@@ -9,7 +9,7 @@ def say(str_say) :
     engine.runAndWait()
 
 say("Which image do you want me to look at?")
-API_KEY = "AIzaSyCw804QomtGBaRFZveQdz3MyjOTGOkRXFk";
+API_KEY = "YOUR API KEY HERE";
 image = input("Enter Image URL: ")
 
 api_url = 'https://vision.googleapis.com/v1/images:annotate?key='+API_KEY
